@@ -17,7 +17,6 @@ d1 = datetime.date(int(start_date2[0]), int(start_date2[1]), int(start_date2[2])
 d2 = datetime.date(int(end_date2[0]), int(end_date2[1]), int(end_date2[2]))
 
 difference = d2 - d1
-#assert difference.days <= 93, "Za duzy przedzial czasowy, przekracza 93 dni. "
 
 link = f"http://api.nbp.pl/api/exchangerates/rates/a/{currency}/{start_date}/{end_date}/"
 
